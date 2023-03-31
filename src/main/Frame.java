@@ -1,5 +1,6 @@
 package main;
 
+import java.awt.event.WindowListener;
 import javax.swing.JFrame;
 import javax.swing.WindowConstants;
 import view.PanelGame;
@@ -28,5 +29,9 @@ public class Frame extends JFrame {
     add(panelScore, "North");
     add(panelGame, "Center");
     pack();
+  }
+  
+  public void addEvents(WindowListener listener) {
+    addWindowListener(listener);
   }
 }

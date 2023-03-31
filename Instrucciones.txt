@@ -1,0 +1,13 @@
+INSTRUCCIONES
+
+Con las flechas del teclado se mueve la serpiente, mientras no se presionen no inicia el juego.
+El juego cuenta con musica de fondo y sonido de efecto cuando come,
+se puede silenciar presionando la tecla M (mute),
+si se desea volver a activar el audio solo se debe volver a presionar la tecla M.
+El juego se puede pausar con la tecla de escape (Esc), cuando esta en pausa aparecerá un mensaje.
+Una vez pausado el juego se puede volver al juego presionando otra vez escape (Esc)
+o se puede reiniciar presionando espacio (solo cuando está en pausa).
+Si se pierde (Game Over) se puede reiniciar el juego con la tecla de espacio.
+
+Las reglas del juego son las de siempre, la serpiente no debe chocar con las paredes
+o comerse a sí misma o pierde.

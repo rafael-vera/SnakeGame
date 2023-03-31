@@ -97,6 +97,11 @@ public class Snake {
     }
   }
   
+  public void restartSnake() {
+    this.length = 0;
+    initSnake();
+  }
+  
   public byte getOrientation() {
     return this.orientation;
   }

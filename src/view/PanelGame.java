@@ -58,7 +58,6 @@ public class PanelGame extends JPanel {
       g2.setColor(Color.RED);
       g2.setFont(new Font("Consolas", 3, 50));
       if(gameStatus == PAUSE) {
-        System.out.println("Pause");
         g2.drawString("PAUSE", 225, 250);
       } else if(gameStatus == GAME_OVER) {
         g2.drawString("GAME OVER", 175, 250);

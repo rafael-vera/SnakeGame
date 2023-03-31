@@ -15,6 +15,7 @@ public class Main {
     Frame frame = new Frame(panelScore, panelGame);
     GameListener listener = new GameListener(panelScore, panelGame);
     panelGame.addEvents(listener);
+    frame.addEvents(listener);
     frame.setVisible(true);
   }
 }

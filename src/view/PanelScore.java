@@ -42,4 +42,9 @@ public class PanelScore extends JPanel {
     this.score += points;
     this.labelScore.setText(String.valueOf(score));
   }
+  
+  public void restartScore() {
+    this.score = 0;
+    this.labelScore.setText(String.valueOf(score));
+  }
 }
